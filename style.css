@@ -1,0 +1,35 @@
+.container-sm{
+    border: 2px solid rosybrown;
+    margin-top: 10px;
+}
+.textArea{
+    border: 2px solid rgb(221, 26, 188);
+    width: 600px;
+    margin: 10px auto;
+
+    /* text-align: center; */
+}
+.styleUl{
+    margin: 10px auto;
+    list-style-type: none;
+    width: 600px;
+    border: 2px solid rgb(218, 125, 5);
+    height: 400px;
+    /* min-height: 200px; */
+    overflow: scroll;
+}
+#shown{
+    background-color: #e1ecff;
+    width: fit-content;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 100px;
+
+}
+.form-control{
+    display: inline-block !important;
+    width: 400px !important;
+    padding: 10px !important;
+    border-radius: 100px !important;
+}
+
