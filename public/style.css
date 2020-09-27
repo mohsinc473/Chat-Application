@@ -37,3 +37,23 @@
     border-radius: 100px !important;
 }
 
+.userImg{
+    /* border: 2px solid violet; */
+    border-radius: 5px;
+    /* background-color: #f6f3eb; */
+    /* box-shadow: 0 0 20px #51d387; */
+    margin: 10px auto;
+    width: 600px;
+    height: 80px;
+
+}
+img{
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+}
+.loginBtns{
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}

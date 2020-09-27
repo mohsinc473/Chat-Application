@@ -14,6 +14,7 @@
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -40,6 +41,9 @@
 
 <body>
     <div class="container-sm">
+        <div class="userImg" id="users">
+            <!-- <img src="https://www.jamesedition.com/stories/wp-content/uploads/2018/02/8f35ba26fe296e36b3a96ee5416259b4.jpg"> -->
+        </div>
         <!-- <div class="messages"> -->
         <ul class="styleUl" id="msgli">
 
@@ -49,8 +53,13 @@
             <textarea class="form-control" id="message" rows="1" placeholder="Type a message"></textarea>
             <button type="button" class="btn btn-light" onclick="send()"><i class="fas fa-paper-plane"></i></button>
         </div>
+        
     </div>
-
+    
+    <div class="loginBtns">
+        <button type="button" class="btn btn-outline-primary" onclick="loginFB()"><i class="fab fa-facebook"></i> Continue with Facebook</button>
+        <button type="button" class="btn btn-outline-dark" onclick="loginGoogle()"><i class="fab fa-google"></i> Continue with Google</button>
+    </div>
 
 
 
